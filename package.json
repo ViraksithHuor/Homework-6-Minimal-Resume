@@ -1,0 +1,25 @@
+{
+  "name": "homework-6-minimal-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViraksithHuor/Homework-6-Minimal-Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ViraksithHuor/Homework-6-Minimal-Resume/issues"
+  },
+  "homepage": "https://github.com/ViraksithHuor/Homework-6-Minimal-Resume#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.6"
+  }
+}

@@ -1,0 +1,18 @@
+<h2>{{title}}</h2>
+
+<h3>Experience</h3>
+<ul>
+    {{#each experience}}
+    <li>
+        <strong>{{this.position}}</strong> at {{this.company}} ({{this.duration}})
+        <p>{{this.description}}</p>
+    </li>
+    {{/each}}
+</ul>
+
+<h3>Skills</h3>
+<ul>
+    {{#each skills}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
